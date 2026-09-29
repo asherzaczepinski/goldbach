@@ -68,6 +68,12 @@ const TOPICS: { href: string; title: string; blurb: string; tag: string }[] = [
     tag: "finding",
   },
   {
+    href: "/squares",
+    title: "Prime squares & last digits",
+    blurb: "Why a prime squared usually has last two digits adding to a prime — and why it isn't about primes.",
+    tag: "finding",
+  },
+  {
     href: "/path",
     title: "My path",
     blurb: "Everything tried this far — the conjectures, with honest verdicts.",
