@@ -80,6 +80,12 @@ const TOPICS: { href: string; title: string; blurb: string; tag: string }[] = [
     tag: "finding",
   },
   {
+    href: "/worstcase",
+    title: "Worst-case hunter",
+    blurb: "An equation (N = 2^k) for the even numbers most likely to break Goldbach — and the odds there.",
+    tag: "finding",
+  },
+  {
     href: "/path",
     title: "My path",
     blurb: "Everything tried this far — the conjectures, with honest verdicts.",
