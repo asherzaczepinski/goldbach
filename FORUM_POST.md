@@ -1,5 +1,8 @@
 # Forum post draft — Math Stack Exchange
 
+> **Posted:** https://math.stackexchange.com/questions/5150634/is-this-property-of-even-numbers-studied-named-n-1-has-a-prime-factor-p-wi
+
+
 **Suggested tags:** `number-theory`, `prime-numbers`, `elementary-number-theory`, `reference-request`, `arithmetic-progressions`
 
 <!-- note: MSE has no usable "goldbach-conjecture" tag (creating new tags needs 300 rep),

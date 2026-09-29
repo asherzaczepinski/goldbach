@@ -209,6 +209,17 @@ export default function PatternPage() {
             <Link href="/comet">the comet</Link>,{" "}
             <Link href="/firstprimes">first primes</Link>.
           </p>
+          <div className="callout">
+            <span className="tag">asked the experts</span>
+            I posted this as a question on Math Stack Exchange —{" "}
+            <a
+              href="https://math.stackexchange.com/questions/5150634/is-this-property-of-even-numbers-studied-named-n-1-has-a-prime-factor-p-wi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              &ldquo;Is this property of even numbers studied/named?&rdquo;
+            </a>
+          </div>
         </section>
       </div>
     </main>
