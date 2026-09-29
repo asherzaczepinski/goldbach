@@ -1,6 +1,10 @@
 # Forum post draft — Math Stack Exchange
 
-**Suggested tags:** `number-theory`, `prime-numbers`, `goldbach-conjecture`, `reference-request`
+**Suggested tags:** `number-theory`, `prime-numbers`, `elementary-number-theory`, `reference-request`, `arithmetic-progressions`
+
+<!-- note: MSE has no usable "goldbach-conjecture" tag (creating new tags needs 300 rep),
+     so use the established tags above. Mention "Goldbach" in the title/body instead. -->
+
 
 **Title:**
 > Is this property of even numbers studied/named? "N−1 has a prime factor p with N−p prime"
