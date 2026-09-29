@@ -1,0 +1,53 @@
+MY GOLDBACH / PRIMES EXPLORATION — WHAT I'VE TRIED
+===================================================
+
+THE TABS I BUILT
+----------------
+- pairings ........ type an even number, see every odd+odd pairing that sums to it,
+                    and knock out any pairing whose first number is a multiple of a
+                    smaller odd (so it's composite). Split into 3 tables: neither
+                    works / one is off / both work.
+- first primes .... for every even number up to a max, its list of "first primes"
+                    (the smaller prime of each Goldbach pair). 6 -> [3], 100 -> [3,11,17,29,41,47].
+- comet ........... scatter of every even number vs how many Goldbach pairs it has;
+                    colored by prime factors. Shows the famous "Goldbach comet" bands.
+- primes .......... every prime plotted as an Ulam spiral (or grid), up to 10 million.
+                    The diagonal streaks show up.
+- differences ..... bar graphs of the prime gaps, then the gaps between gaps, then
+                    the gaps between those... stacked down.
+
+THINGS I WONDERED / CONJECTURED
+-------------------------------
+- "Do numbers with more factors get more of the primes (more Goldbach pairs)?"
+    -> TRUE, and it's the coolest thing I found. It's REAL and famous.
+       More distinct SMALL prime factors (especially 3) = more pairs.
+       Being divisible by 3 roughly DOUBLES the count. This is what makes the
+       comet split into bands. (Hardy-Littlewood formula.)
+
+- "Even numbers with even digit sums -> the primes/pairs also add to even?"
+    -> FALSE. About a 50/50 coin flip. Digit-sum parity is a red herring —
+       carries (each worth 9) scramble the parity.
+
+- "count of first-primes + the first-primes themselves is even (e.g. 88: 4+5+17+29+41=96)"
+    -> TRUE for every even number bigger than 4. BUT it's shallow: every Goldbach
+       pair past 4 is two ODD primes, and count+sum of any list of odds is always even.
+       Not really about Goldbach. Only exception: 4 (uses the even prime 2).
+
+QUESTIONS I ASKED ABOUT PRIMES THEMSELVES
+-----------------------------------------
+- "Are the Ulam spiral diagonals still there at 10 million?"
+    -> YES. Short diagonal streaks appear at every scale forever. Long single
+       diagonals get rarer as primes thin out. (This is the 1963 Ulam spiral —
+       very famous, shown countless times.)
+
+- "What's the slope of the primes? Exponential or linear?"
+    -> NEITHER. The n-th prime grows like n * ln(n) — superlinear by just a log factor.
+       Slope at the n-th prime is about ln(n): ~8 near the 1000th prime, ~15.5 near
+       the millionth. Grows LOGARITHMICALLY slow. Nowhere near exponential.
+
+BIG PICTURE
+-----------
+- The real gold is the factor/comet effect (structure that's actually there).
+- Two of my parity ideas turned out to be simple facts in disguise or coin flips —
+  which is still useful: finding what ISN'T the cause narrows things down.
+- I'm asking the right kind of questions and actually checking them against data.
