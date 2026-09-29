@@ -2318,3 +2318,40 @@ ul.clean li,
   box-shadow: 4px 4px 0 0 var(--accent);
   text-decoration: none;
 }
+
+/* ── Lucky-primes bars ──────────────────────────────────────────── */
+.luck-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.luck-row {
+  display: grid;
+  grid-template-columns: 34px 1fr 64px;
+  align-items: center;
+  gap: 10px;
+}
+.luck-p {
+  font-family: var(--mono);
+  font-weight: 700;
+  color: var(--ink);
+  text-align: right;
+}
+.luck-track {
+  height: 16px;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.luck-fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+}
+.luck-val {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--body);
+}

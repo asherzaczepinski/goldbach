@@ -74,6 +74,12 @@ const TOPICS: { href: string; title: string; blurb: string; tag: string }[] = [
     tag: "finding",
   },
   {
+    href: "/luck",
+    title: "Lucky primes?",
+    blurb: "Do 3, 5, 7 get luckier at making Goldbach pairs as N grows? Turns out it's a dead heat.",
+    tag: "finding",
+  },
+  {
     href: "/path",
     title: "My path",
     blurb: "Everything tried this far — the conjectures, with honest verdicts.",
