@@ -86,6 +86,18 @@ const TOPICS: { href: string; title: string; blurb: string; tag: string }[] = [
     tag: "finding",
   },
   {
+    href: "/covering",
+    title: "Covering systems",
+    blurb: "Pick a remainder for 3, 5, 7, 9, 11 and try to catch every integer. The best you can do is 65.37% — and why is an open problem.",
+    tag: "finding",
+  },
+  {
+    href: "/sums",
+    title: "Running sums",
+    blurb: "Sum of primes vs sum of non-primes up the number line. Primes lead through 7, then lose the lead forever.",
+    tag: "plot",
+  },
+  {
     href: "/path",
     title: "My path",
     blurb: "Everything tried this far — the conjectures, with honest verdicts.",
